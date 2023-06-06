@@ -28,7 +28,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 180))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/e5b81a8676696f9d804f9.jpg https://telegra.ph/file/6940bb0b2043877e9cfb8.jpg https://telegra.ph/file/5a7ddd3734300d9cc2b46.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -52,7 +52,7 @@ START_MESSAGE = environ.get('START_MESSAGE', '<b>Hey, {user}\n\nMy Name is <i>{b
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "Hey, {user}\n{query}! Movie/Series Do not Search You! So Search Yourself ✅")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b>For Overload On This Bot ! So Channel Members Only Search Movie Or Series \n\nLink Below 👇👇</b>')
 RemoveBG_API = environ.get("RemoveBG_API", "")
-WELCOM_PIC = environ.get("WELCOM_PIC", "")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/471e6dee9ddff739ac30e.mp4")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hey, {user}\n\nwelcome to {chat}\n\nType movies or Series Name here 👇👇")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
