@@ -88,22 +88,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-
             InlineKeyboardButton("➕️ Add Me To Your Group ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
-
             ],[
-
             InlineKeyboardButton("🍀 Movie's CH 🍀", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
-
             InlineKeyboardButton("🍁 Movie's Files 🍁", url="https://t.me/RoyalFiles")
-
             ],[      
-
             InlineKeyboardButton("🍂 Help 🍂", callback_data="help"),
-
             InlineKeyboardButton("🌸 About 🌸", callback_data="about")
-
-        ]]
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
@@ -347,12 +339,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="YES", callback_data="autofilter_delete"
+                        text="YES ✅", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="CANCEL", callback_data="close_data"
+                        text="CANCEL ❌", callback_data="close_data"
                     )
                 ],
             ]
