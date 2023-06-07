@@ -33,7 +33,7 @@ BOT_START_TIME = time()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -47,7 +47,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
-MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "15"))
+MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "6"))
 START_MESSAGE = environ.get('START_MESSAGE', '<b>Hey, {user}\n\nMy Name is <i>{bot}</i>,\n\nI Can Give You Movies Or Series In File Format Just Send Me Name with Correct Spelling! Then See My Power 😉\n\n   Maintenance By @Wombackup</b>')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "Hey, {user}\n{query}! Movie/Series Do not Search You! So Search Yourself ✅")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b>Hey, {user}\n\nYou Have To Join My Updated Channel To Use Me ✅ \n\n👇👇 Link Below 👇👇</b>')
@@ -70,7 +70,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "True")
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_name}\n\nSize - {file_size}\n\n [ Movie Provided By <a href=https://t.me/WomBackup> WomBackup</a> 🥀 ]</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_name}\n\nSize - {file_size}\n\n⚠️ File Delete After 3 minutes So Share and Save First Before Download.\n\n [ Movie Provided By <a href=https://t.me/WomBackup> ShinChan</a> 🥀 ]</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10\n\nIMDB Data Provided By 👉 <a href= https://t.me/shinchanfilterrobot>ShinChan</a> 🥀")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
