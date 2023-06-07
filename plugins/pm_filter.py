@@ -231,7 +231,7 @@ async def pm_spoll_choker(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>Sorry, {mention} 😞\nMovie Not Found In My Database\n\nReasons Are...\n👉 Spelling Wrong ❌\n👉 Movie Not Added in My Database 😞\n👉 OTT / DvD Not Released Of This Movie!\n\nTip : <i>Go to Google And Search Your Movie Then Select Name Of Movie Or Send Me Again 🍂</i></b>")
+        k = await msg.reply("<b>Sorry, Dear 😞\nMovie Not Found In My Database\n\nReasons Are...\n👉 Spelling Wrong ❌\n👉 Movie Not Added in My Database 😞\n👉 OTT / DvD Not Released Of This Movie!\n\nTip : <i>Go to Google And Search Your Movie Then Copy Name Of Movie Or Send Me Again 🍂</i></b>")
         await asyncio.sleep(120)
         await k.delete()
         return
