@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
-MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "6"))
-START_MESSAGE = environ.get('START_MESSAGE', '<b>Hey, {user}\n\nMy Name is <i>{bot}</i>,\n\nI Can Give You Movies Or Series In File Format Just Send Me Name with Correct Spelling! Then See My Power 😉\n\n   Maintenance By @Wombackup</b>')
+MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
+START_MESSAGE = environ.get('START_MESSAGE', '<b>Hey, {user}\n\nMy Name is <i>{bot}</i>, I 𝖼𝖺𝗇 𝗌𝖾𝖺𝗋𝖼𝗁 𝗆𝗈𝗏𝗂𝖾, 𝗌𝖾𝗋𝗂𝖾𝗌 𝖿𝗈𝗋 𝗒𝗈𝗎. 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺𝗇𝗒 𝗆𝗈𝗏𝗂𝖾 𝗈𝗋 𝗌𝖾𝗋𝗂𝖾𝗌 𝗇𝖺𝗆𝖾 𝖻𝗎𝗍 𝗆𝖺𝗄𝖾 𝗌𝗎𝗋𝖾 𝗍𝗁𝗂𝗌 𝗌𝗉𝖾𝗅𝗅𝗂𝗇𝗀 𝗂𝗌 𝖼𝗈𝗋𝗋𝖾𝖼𝗍.\n\n𝖠𝖿𝗍𝖾𝗋 𝗌𝖾𝗇𝖽 𝗍𝗁𝖾 𝗇𝖺𝗆𝖾 𝗐𝖺𝗂𝗍 𝖿𝖾𝗐 𝗌𝖾𝖼𝗈𝗇𝖽𝗌 𝖺𝗇𝖽 𝗌𝖾𝖾 𝗆𝗒 𝗆𝖺𝗀𝗂𝖼.\n\n   Maintenance By @Wombackup</b>')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "Hey, {user}\n{query}! Movie/Series Do not Search You! So Search Yourself ✅")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b>Hey, {user}\n\nYou Have To Join My Updated Channel To Use Me ✅ \n\n👇👇 Link Below 👇👇</b>')
 RemoveBG_API = environ.get("RemoveBG_API", "4atGShH49mDTN5R2fu6xfNZB")
