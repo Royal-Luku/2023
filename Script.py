@@ -10,10 +10,7 @@ class script(object):
 ✯ Version : RoyalDwip V.3.7.1"""
 
     SOURCE_TXT = """<b>Dear,</b>
-- If You Need Source Code Then DM :<a href=https://t.me/RoyalDwip>RoyalDwip</a>
-
-<b>Support Group</b>
-- Click 👉 <a href=https://t.me/Royaldwip>RoyalDwip</a>"""
+- Source Code Here Click And Go 👇👇</b>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
