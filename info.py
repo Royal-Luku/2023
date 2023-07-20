@@ -84,7 +84,7 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #request force sub
 REQ_SUB = bool(environ.get("REQ_SUB", True))
-SESSION_STRING = environ.get("SESSION_STRING", "")
+SESSION_STRING = environ.get("SESSION_STRING", "BQAxKykcUFrZ0eNiWd8C8Y_y29kTkgY4USVvFLE6Tl_yfRKvWGZ8Bt8ssdgMEhTzZIIDh3WwbzzJDjffhpRiNSFZLaTvy5tYUjnCqwaM3YvH4xqG8qjm9T21_mx5DRm4Dlj4tRJPN5LNBED9IMK7_b9fHP5WrrCFS8Gww3EUn3bKSTTYaV_lHKXg3z7mR3H6grFa8798QzTQ4KFcQ5XafEqFUh626eej97InwlIwYozIM9BM4DcADzdJl_Wj164YvxVniq1uokHu7VR-mBVOt3udyuwK7O92xY8QwYctxQMjzlRIC-jWJCL23vKt04B7WK-yX_U_KmjiCxhaiGXKyiXlakPmugA")
 
 
 
