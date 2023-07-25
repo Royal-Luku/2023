@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝐒𝐇𝐈𝐍𝐂𝐇𝐀𝐍+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗥𝗢𝗬𝗔𝗟+𝗗𝗪𝗜𝗣!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝗦𝗛𝗜𝗡𝗖𝗛𝗔𝗡+𝗕𝗢𝗧!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗥𝗢𝗬𝗔𝗟+𝗗𝗪𝗜𝗣!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
 <p align="center">
   <img src="https://graph.org/file/646ebea54f9f48f43cbf1.jpg" alt="ROYAL DWIP">
 </p>
@@ -101,4 +101,4 @@ clear_junk_group - clear add removed group or deactivated groups on db
 
 ## TELAGRAM SUPPORT 
 
-* [![ROYAL DWIP](https://img.shields.io/static/v1?label=MKN&message=BOTZ&color=critical)](https://t.me/Royaldwip)
+* [![ROYAL DWIP](https://img.shields.io/static/v1?label=Royal&message=Dwip&color=critical)](https://t.me/Royaldwip)
