@@ -311,7 +311,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply("<b>Sorry, Dear 😞\nYour Requested Content Not Found In My Database 😓\n\nReasons Are...\n👉 Spelling Wrong ❌\n👉 Movie Not Added in My Database 😓\n👉 OTT / DvD Not Released Of This Movie!\n\nTip : Go to Google And Search Your Movie Then Copy Name Of Movie Or Send Me Again 🍂</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -340,7 +340,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("<b>I couldn't find Anything! Check your spelling</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -352,7 +352,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    await msg.reply("I couldn't find anything related to that\n\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 async def manual_filters(client, message, text=False):
