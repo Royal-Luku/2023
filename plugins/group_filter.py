@@ -312,7 +312,7 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         k = await msg.reply("<b>Sorry, Dear 😞\nYour Requested Content Not Found In My Database 😓\n\nReasons Are...\n👉 Spelling Wrong ❌\n👉 Movie Not Added in My Database 😓\n👉 OTT / DvD Not Released Of This Movie!\n\nTip : Go to Google And Search Your Movie Then Copy Name Of Movie Or Send Me Again 🍂</b>")
-        await asyncio.sleep(8)
+        await asyncio.sleep(60)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
