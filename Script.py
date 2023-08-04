@@ -7,10 +7,10 @@ class script(object):
 ✯ Language : Python 3
 ✯ DB : Mongo-DB
 ✯ Bot server : Janne Ki Jarurat Nhi Hain.. 
-✯ Version : RoyalDwip V.3.7.1"""
+✯ Version : RoyalDwip V.3.7.1</b>"""
 
     SOURCE_TXT = """<b>Dear,</b>
-- Source Code Here Click And Go 👇👇</b>"""
+- I know Ki Tum Yeha Kyu Aye Hoon But Still I Can't Give You Repo Because Mene isme kuch Changes Kiya Hain So Dafa Ho Jao Yeha Se Agr Ye Msg Padkar tumara dimag kharab ho jaye and tum bot ko block kar do to fhir jab unblock karoge tab tum banned user ke list me chale jayoge 👺</b>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -26,7 +26,7 @@ class script(object):
 
 <code>/batch https://t.me/wombackup https://t.me/wombackup</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/wombackup><b>Click</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/wombackup><b>World-OF-Movies™</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -43,7 +43,8 @@ class script(object):
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>
 
-• <code>/g_filter off</code> use this commoand + on/off in your group to control global filter in your group"""
+• <code>/g_filter off</code> use this commoand + on/off in your group to control global filter in your group 
+<b>Credit Goes To @RoyalDwip </b>🍂"""
    
     BUTTON_TXT = """Help: <b>Buttons</b>
 
@@ -58,7 +59,8 @@ class script(object):
 <code>[Button Text](buttonurl:xxxxxxxxxxxx)</code>
 
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+<code>[Button Text](buttonalert:This is an alert message)</code>
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     AUTOFILTER_TXT = """**𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙾𝙽/𝙾𝙵𝙵 𝙼𝙾𝙳𝚄𝙻𝙴..
 <u>USE THIS COMMAND ON YOUR GROUP</u>
@@ -72,7 +74,7 @@ class script(object):
 ›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁. 
 ›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/mr_MKN>Mr.MKN TG</a>**"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/WomBackup>WorldofMovies™</a>**"""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -86,7 +88,8 @@ class script(object):
 <b>Commands and Usage:</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
+• /connections - <code>list all your connections</code>
+ <b>Credit Goes To @RoyalDwip </b>🍂"""
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
@@ -97,7 +100,8 @@ these are the extra features of this bot
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• /search  - <code>get the film information from various sources.</code>
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     ADMIN_TXT = """<b>ɴᴏᴛᴇ:</b>
 <code>Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs</code>
@@ -113,7 +117,8 @@ these are the extra features of this bot
 • /deleteall - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ꜰɪʟᴇs ꜰʀᴏᴍ ᴅʙ.</code>
 • /users - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.</code>
 • /chats - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ</code>
-• /channel - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ</code>"""
+• /channel - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ</code>
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     US_CHAT_TXT = """<b>ɴᴏᴛᴇ:</b>
 <code>Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs</code>
@@ -131,7 +136,8 @@ these are the extra features of this bot
 • /gsend - <code>Tᴏ Sᴇɴᴅ ᴀ Mᴇssᴀɢᴇ ᴛᴏ Pᴇʀᴛɪᴄᴜʟᴀʀ Cʜᴀᴛ</code>
 
 • /clear_junk - clear all delete account & blocked account in database 
-• /clear_junk_group - clear add removed group or deactivated groups on db"""
+• /clear_junk_group - clear add removed group or deactivated groups on db 
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     G_FIL_TXT = """<b>ɴᴏᴛᴇ:</b>
 <code>Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs</code>
@@ -141,13 +147,14 @@ these are the extra features of this bot
 • /gfilters - <code>ᴛᴏ ᴠɪᴇᴡ ʟɪsᴛ ᴏғ ᴀʟʟ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs<code>
 • /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ</code>
 • /delallg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ɢʟᴏʙᴀʟ ꜰɪʟᴛᴇʀꜱ</code>
-"""
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
 <b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
 <b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
 <b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
+<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
+<b>Credit Goes To @RoyalDwip </b>🍂"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {a}(<code>{b}</code>)</b>
@@ -174,7 +181,8 @@ By @{} """
 • /instatus - to check current status of chat member from group.
 • /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
-• /dkick - to kick deleted accounts."""
+• /dkick - to kick deleted accounts.
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     IMAGE_TXT = """➤ 𝐇𝐞𝐥𝐩: Iᴍᴀɢᴇ
 
@@ -184,7 +192,8 @@ By @{} """
 
 ➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
 
-𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/Wombackup>Wombackup</a>"""
+𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/Wombackup>Wombackup</a>
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     RESTRIC_TXT = """➤ 𝐇𝐞𝐥𝐩: Mᴜᴛᴇ 🚫
 
@@ -204,7 +213,9 @@ By @{} """
 𝖸𝗈𝗎 𝖼𝖺𝗇 𝗎𝗌𝖾 𝗏𝖺𝗅𝗎𝖾𝗌: 𝗆/𝗁/𝖽. 
  • 𝗆 = 𝗆𝗂𝗇𝗎𝗍𝖾𝗌
  • 𝗁 = 𝗁𝗈𝗎𝗋𝗌
- • 𝖽 = 𝖽𝖺𝗒𝗌"""
+ • 𝖽 = 𝖽𝖺𝗒𝗌
+ 
+ <b>Credit Goes To @RoyalDwip </b>🍂"""
 
 
     PIN_TXT ="""<b>PIN MODULE</b>
@@ -215,7 +226,9 @@ By @{} """
 <b>📌𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙰𝙽𝙳 𝚄𝚂𝙰𝙶𝙴📌</b>
 
 ◉ /pin :- 𝚃𝙾 𝙿𝙸𝙽 𝚃𝙷𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃𝚂
-◉ /unpin :- 𝚃𝙾 𝚄𝙽𝙿𝙸𝙽 𝚃𝙷𝙴 𝙲𝚄𝚁𝚁𝙴𝙴𝙽𝚃 𝙿𝙸𝙽𝙽𝙴𝙳 𝙼𝙴𝚂𝙰𝙰𝙶𝙴"""
+◉ /unpin :- 𝚃𝙾 𝚄𝙽𝙿𝙸𝙽 𝚃𝙷𝙴 𝙲𝚄𝚁𝚁𝙴𝙴𝙽𝚃 𝙿𝙸𝙽𝙽𝙴𝙳 𝙼𝙴𝚂𝙰𝙰𝙶𝙴
+
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     PASTE_TXT = """Help: <b>Paste</b>
 
@@ -228,7 +241,9 @@ Paste some texts or documents on a website!
 <b>NOTE:</b>
 
 • These commands works on both pm and group.
-• These commands can be used by any group member."""
+• These commands can be used by any group member.
+
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     TTS_TXT = """Help: <b> TTS 🎤 module:</b>
 
@@ -242,7 +257,8 @@ Translate text to speech
 
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
-• IMDb can translate texts to 200+ languages."""
+• IMDb can translate texts to 200+ languages.
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     PINGS_TXT ="""<b>🌟 Ping:</b>
 
@@ -252,11 +268,12 @@ Helps you to know your ping 🚶🏼‍♂️
 
 • /alive - To check you are alive.
 • /ping - To get your ping.
-<b>🏹Usage🏹 :</b>
+<b>Usage :</b>
 
 • This commands can be used in pms and groups
 • This commands can be used buy everyone in the groups and bots pm
-• Share us for more features"""
+• Share us for more Features 
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
 
@@ -269,7 +286,8 @@ Do as you wish with telegra.ph module!
 <b>NOTE:</b>
 
 • This Command Is Available in goups and pms
-• This Command Can be used by everyone"""
+• This Command Can be used by everyone
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     JSON_TXT ="""<b>JSON:</b>
 
@@ -283,7 +301,8 @@ Group Support
 
 <b>Note:</b>
 
-Everyone can use this command , if spaming happens bot will automatically ban you from the group."""
+Everyone can use this command , if spaming happens bot will automatically ban you from the group.
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     PURGE_TXT = """<b>Purge</b>
     
@@ -291,7 +310,8 @@ Delete A Lot Of Messages From Groups!
     
  <b>ADMIN</b> 
 
-◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
+◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message 
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     CREATOR_REQUIRED = """❗<b>You have To Be The Group Creator To Do That.</b>"""
       
@@ -309,16 +329,19 @@ Delete A Lot Of Messages From Groups!
       
     CARB_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗖𝗔𝗥𝗕𝗢𝗡☽︎
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
-𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙼𝙾𝙳𝚄𝙻𝙴 𝙹𝚄𝚂𝚃 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝚃𝙴𝚇𝚃 𝙰𝙽𝙳 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙸𝚃 𝚆𝙸𝚃𝙷 /carbon 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝚃𝙷𝙴 𝙱𝙾𝚃 𝚆𝙸𝙻𝙻 𝚁𝙴𝙿𝙻𝚈 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝙼𝙰𝙶𝙴"""
+𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙼𝙾𝙳𝚄𝙻𝙴 𝙹𝚄𝚂𝚃 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝚃𝙴𝚇𝚃 𝙰𝙽𝙳 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙸𝚃 𝚆𝙸𝚃𝙷 /carbon 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝚃𝙷𝙴 𝙱𝙾𝚃 𝚆𝙸𝙻𝙻 𝚁𝙴𝙿𝙻𝚈 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝙼𝙰𝙶𝙴
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     FOND_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗙𝗢𝗡𝗧𝗦☽︎
 𝙵𝙾𝙽𝚃 𝙸𝚂 𝙰 𝙼𝙾𝙳𝚄𝙻𝙴 𝙵𝙾𝚁 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝚂𝚃𝚈𝙻𝙸𝚂𝙷.
-𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈."""
+𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈.
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     SHARE_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗦𝗛𝗔𝗥𝗘 𝗧𝗘𝗫𝗧☽︎
 
 ➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
-• /share - 𝚁𝚎𝚙𝚕𝚢 𝚆𝚒𝚝𝚑 𝙰𝚗𝚢 𝚃𝚎𝚡𝚝 𝚃𝚘 𝚂𝚎𝚗𝚍 𝚃𝚑𝚒𝚜 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 """
+• /share - 𝚁𝚎𝚙𝚕𝚢 𝚆𝚒𝚝𝚑 𝙰𝚗𝚢 𝚃𝚎𝚡𝚝 𝚃𝚘 𝚂𝚎𝚗𝚍 𝚃𝚑𝚒𝚜 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
     YTDL = """<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
@@ -332,7 +355,8 @@ Delete A Lot Of Messages From Groups!
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
 <code>/song mkn</code>
 <code>/mp4 https://youtu.be/*******</code>
-<code>/video https://youtu.be/*****</code>  """
+<code>/video https://youtu.be/*****</code>  
+<b>Credit Goes To @RoyalDwip </b>🍂"""
 
 
     
