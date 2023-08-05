@@ -102,15 +102,15 @@ async def pm_spoll_tester(bot, query):
         return await query.message.delete()
     movies = PM_SPELL_CHECK.get(query.message.reply_to_message.id)
     if not movies:
-        return await query.answer("Sorry, 😥 \n\nButton Links Expired  !", show_alert=True)
+        return await query.answer("Sorry, Button Links Expired  !", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('<b>Wait A Second I Am Searching Movie Available or not 🍂</b>')
+    await query.answer('Wait A Second I Am Searching Movie Available or not 🍂')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await pm_AutoFilter(bot, query, k)
     else:
-        k = await query.message.edit('This Movie Not Found In DataBase')
+        k = await query.message.edit('<b>SᴏʀRʏ, 🙁\n\nTʜɪs Mᴏᴠɪᴇ / Sᴇʀɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Iɴ Mʏ DᴀᴛᴀBᴀsᴇ! \n\n🍂 RᴇᴀsᴏɴS Aʀᴇ ⤵️\n\n👉 Mᴏᴠɪᴇ / Sᴇʀɪᴇs Nᴏᴛ Aᴅᴅᴇᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ\n\n👉 Hᴅ / PʀᴇDᴠD / CᴀᴍRɪᴘ VᴇʀsɪᴏN Nᴏᴛ RᴇʟᴇᴀSᴇ Oғ TʜIs Mᴏᴠɪᴇ / Sᴇʀɪᴇs \n\n🍂 CᴏɴᴛᴀᴄT Mʏ DᴇᴠᴏLᴏᴘᴇR Fᴏʀ Mᴏʀᴇ IɴғᴏRᴍᴀTɪᴏɴ RᴇʟᴀTᴇᴅ Tʜɪs ! 😌</b>')
         await asyncio.sleep(30)
         await k.delete()
 
