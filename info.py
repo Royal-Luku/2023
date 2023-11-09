@@ -28,7 +28,7 @@ BOT_TOKEN = environ['BOT_TOKEN', "5879211417:AAGQk8k7ETYvvhUzIHmV7G4nOv0071i5980
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 180))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/55d84f2c1822d774f4179.jpg https://graph.org/file/95c0c46be7d051ba1b0a1.jpg https://graph.org/file/6f5d533d2b01d6f6a3a4a.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -52,7 +52,7 @@ START_MESSAGE = environ.get('START_MESSAGE', '<b>Hey, {user}\n\nMy Name is <i>{b
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "Hey, {user}\n{query}! Movie/Series Do not Search You! So Search Yourself ✅")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b>Hey, {user}\n\nYou Have To Join My Updated Channel To Use Me ✅</b>')
 RemoveBG_API = environ.get("RemoveBG_API", "4atGShH49mDTN5R2fu6xfNZB")
-WELCOM_PIC = environ.get("WELCOM_PIC", "")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://graph.org/file/6f5d533d2b01d6f6a3a4a.jpg https://graph.org/file/95c0c46be7d051ba1b0a1.jpg https://graph.org/file/55d84f2c1822d774f4179.jpg")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "<b>Hey, {user}\n\nWelcome to {chat}\n\nDon't Spam Here Dear! Otherwise I will Ban You 😉</b>")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
