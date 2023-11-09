@@ -59,7 +59,7 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "False")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", "api.shareus.io")
+SHORT_URL = environ.get("SHORT_URL", "shareus.io")
 SHORT_API = environ.get("SHORT_API", "4HOFBjjFxSNag0CoW64QgxwBG4k1")
 
 # Others
