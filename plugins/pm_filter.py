@@ -260,14 +260,14 @@ async def pm_spoll_choker(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling ✅</b>\n\n<i><b>🍂 Powred By</b> <u>@ShinChanFilterRobot</u></i>")
+        k = await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling ✅</b>\n\n<i><b>🍂 Powred By</b> <u>@WomBackup</u></i>")
         await asyncio.sleep(30)
         await k.delete()
         return
     PM_SPELL_CHECK[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"pmspolling#{user}#{k}")] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'pmspolling#{user}#close_spellcheck')])
-    await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling Here 👇👇</b>\n\n<i><b>🍂 Powred By</b> <u>@ShinChanFilterRobot</u></i>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
+    await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling Here 👇👇</b>\n\n<i><b>🍂 Powred By</b> <u>@WomBackUp</u></i>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
 
 
 
