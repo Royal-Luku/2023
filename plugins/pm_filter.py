@@ -52,16 +52,16 @@ async def pm_next_page(bot, query):
     
     if SHORT_URL and SHORT_API:          
         if SINGLE_BUTTON:
-            btn = [[InlineKeyboardButton(text=f"🍂 [{get_size(file.file_size)}] 🍂 {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 [{get_size(file.file_size)}] 💌 {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
         else:
-            btn = [[InlineKeyboardButton(text=f"🍂 {file.file_name} 🍂", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")),
-                    InlineKeyboardButton(text=f"🍂 {get_size(file.file_size)} 🍂", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 {file.file_name} 💌", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")),
+                    InlineKeyboardButton(text=f"🔖 {get_size(file.file_size)} 💌", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
     else:        
         if SINGLE_BUTTON:
-            btn = [[InlineKeyboardButton(text=f"🍂 [{get_size(file.file_size)}] 🍂 {file.file_name}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 [{get_size(file.file_size)}] 💌 {file.file_name}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
         else:
-            btn = [[InlineKeyboardButton(text=f"🍂 {file.file_name} 🍂", callback_data=f'pmfile#{file.file_id}'),
-                    InlineKeyboardButton(text=f"🍂 {get_size(file.file_size)} 🍂", callback_data=f'pmfile#{file.file_id}')] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 {file.file_name} 💌", callback_data=f'pmfile#{file.file_id}'),
+                    InlineKeyboardButton(text=f"🔖 {get_size(file.file_size)} 💌", callback_data=f'pmfile#{file.file_id}')] for file in files ]
 
     if 0 < offset <= 10:
         off_set = 0
@@ -71,19 +71,19 @@ async def pm_next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("BACK", callback_data=f"pmnext_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"Pages {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages")]                                  
+            [InlineKeyboardButton("⬅️", callback_data=f"pmnext_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"📃 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages")]                                  
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"{math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("NEXT", callback_data=f"pmnext_{req}_{key}_{n_offset}")])
+            [InlineKeyboardButton(f"📃 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
+             InlineKeyboardButton("➡️", callback_data=f"pmnext_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("BACK", callback_data=f"pmnext_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🍂 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT", callback_data=f"pmnext_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("⬅️", callback_data=f"pmnext_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"📃 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton("➡️", callback_data=f"pmnext_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -102,7 +102,7 @@ async def pm_spoll_tester(bot, query):
         return await query.message.delete()
     movies = PM_SPELL_CHECK.get(query.message.reply_to_message.id)
     if not movies:
-        return await query.answer("Sorry, Button Links Expired  !", show_alert=True)
+        return await query.answer("Sorry, Button Expired  !", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('Wait A Second I Am Searching Movie Available or not 🍂')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -135,27 +135,27 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
 
     if SHORT_URL and SHORT_API:          
         if SINGLE_BUTTON:
-            btn = [[InlineKeyboardButton(text=f"🍂 [{get_size(file.file_size)}] 🍂 {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}"))] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 [{get_size(file.file_size)}] 💌 {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}"))] for file in files ]
         else:
-            btn = [[InlineKeyboardButton(text=f"🍂 {file.file_name} 🍂", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}")),
-                    InlineKeyboardButton(text=f"🍂 {get_size(file.file_size)} 🍂", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}"))] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 {file.file_name} 💌", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}")),
+                    InlineKeyboardButton(text=f"🔖 {get_size(file.file_size)} 💌", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=pre_{file.file_id}"))] for file in files ]
     else:        
         if SINGLE_BUTTON:
-            btn = [[InlineKeyboardButton(text=f"🍂 [{get_size(file.file_size)}] 🍂 {file.file_name}", callback_data=f'{pre}#{file.file_id}')] for file in files ]
+            btn = [[InlineKeyboardButton(text=f"🔖 [{get_size(file.file_size)}] 💌 {file.file_name}", callback_data=f'{pre}#{file.file_id}')] for file in files ]
         else:
-            btn = [[InlineKeyboardButton(text=f"🍂 {file.file_name} 🍂", callback_data=f'{pre}#{req}#{file.file_id}'),
-                    InlineKeyboardButton(text=f"🍂 {get_size(file.file_size)} 🍂", callback_data=f'{pre}#{file.file_id}')] for file in files ]    
+            btn = [[InlineKeyboardButton(text=f"🔖 {file.file_name} 💌", callback_data=f'{pre}#{req}#{file.file_id}'),
+                    InlineKeyboardButton(text=f"🔖 {get_size(file.file_size)} 💌", callback_data=f'{pre}#{file.file_id}')] for file in files ]    
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         PM_BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🍀 Page 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
-            InlineKeyboardButton(text="🍀 Next", callback_data=f"pmnext_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"📃 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
+            InlineKeyboardButton(text="➡️", callback_data=f"pmnext_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🍀 Page1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="📃 1/1", callback_data="pages")]
         )
     if PM_IMDB.strip().lower() in ["true", "yes", "1", "enable", "y"]:
         imdb = await get_poster(search)
@@ -197,7 +197,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             **locals()
         )
     else:
-        cap = f"I think This is your Requested Result \n\n Your Demand 👉 {search}"
+        cap = f"**💌 Showing Results For: `{search}`\n\n📌 @ShinChanFilterRobot**"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -231,8 +231,8 @@ async def pm_spoll_choker(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>Sorry, Dear 😞\nYour Requested Content Not Found In My Database 😓\n\nReasons Are...\n👉 Spelling Wrong ❌\n👉 Movie Not Added in My Database 😓\n👉 OTT / DvD Not Released Of This Movie!\n\nTip : <i>Go to Google And Search Your Movie Then Copy Name Of Movie Or Send Me Again 🍂</i></b>")
-        await asyncio.sleep(60)
+        k = await msg.reply("**Movie Not Found in my Database 🥀**")
+        await asyncio.sleep(30)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
@@ -260,14 +260,14 @@ async def pm_spoll_choker(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling ✅</b>\n\n<i><b>🍂 Powred By</b> <u>@WomBackup</u></i>")
+        k = await msg.reply("<b>I Couldn't Find Anything Related To That. Check your spelling ✅</b>")
         await asyncio.sleep(30)
         await k.delete()
         return
     PM_SPELL_CHECK[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"pmspolling#{user}#{k}")] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'pmspolling#{user}#close_spellcheck')])
-    await msg.reply("<b>Sorry, 😓 \n\nI Couldn't Find Anything Related To That. Check your spelling Here 👇👇</b>\n\n<i><b>🍂 Powred By</b> <u>@WomBackUp</u></i>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
+    await msg.reply("<b>I Couldn't Find Anything Related To That. Check your spelling Here 👇👇</b>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
 
 
 
