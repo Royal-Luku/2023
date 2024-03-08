@@ -42,14 +42,11 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("🍀 Movie's CH 🍀", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
             InlineKeyboardButton("🍁 Movie's Files 🍁", url="https://t.me/RoyalFiles")
-            ],[      
-            InlineKeyboardButton("🍂 Help 🍂", callback_data="help"),
-            InlineKeyboardButton("🌸 About 🌸", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.3)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -67,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "Join Now 👀", url=invite_link.invite_link
                 )
             ]
         ]
@@ -88,18 +85,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("➕️ Add Me To Your Group ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("Developer", user_id=int())
             ],[
-            InlineKeyboardButton("🍀 Movie's CH 🍀", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
-            InlineKeyboardButton("🍁 Movie's Files 🍁", url="https://t.me/RoyalFiles")
-            ],[      
-            InlineKeyboardButton("🍂 Help 🍂", callback_data="help"),
-            InlineKeyboardButton("🌸 About 🌸", callback_data="about")
-         ]]
+            InlineKeyboardButton("Channel", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
+            InlineKeyboardButton("Group", url="https://t.me/RoyalFiles")
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.3)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -339,12 +333,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="YES ✅", callback_data="autofilter_delete"
+                        text="Yes", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="CANCEL ❌", callback_data="close_data"
+                        text="Cancel", callback_data="close_data"
                     )
                 ],
             ]
@@ -360,7 +354,7 @@ async def delete_all_index_confirm(bot, message):
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
-@Client.on_message(filters.command('settings'))
+@Client.on_message(filters.command('settings1'))
 async def settings(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
