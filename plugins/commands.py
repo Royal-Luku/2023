@@ -38,10 +38,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("➕️ Add Me To Your Group ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("Developer", user_id=int())
             ],[
-            InlineKeyboardButton("🍀 Movie's CH 🍀", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
-            InlineKeyboardButton("🍁 Movie's Files 🍁", url="https://t.me/RoyalFiles")
+            InlineKeyboardButton("Channel", url="https://t.me/+2xRD3nu8Y7ZkNTVl"),
+            InlineKeyboardButton("Group", url="https://t.me/RoyalFiles")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -64,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "Join Now 👀", url=invite_link.invite_link
+                    "Join Now", url=invite_link.invite_link
                 )
             ]
         ]
