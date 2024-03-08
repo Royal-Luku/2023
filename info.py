@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6677267597:AAHJ3qgwnaY-AY_2QpVvngWzgGDoOVO
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 180))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://graph.org/file/55d84f2c1822d774f4179.jpg https://graph.org/file/95c0c46be7d051ba1b0a1.jpg https://graph.org/file/6f5d533d2b01d6f6a3a4a.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/def9f651e0c9c1f57c586.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -43,7 +43,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Raj2345:Raj2345@cluster0.xyai6ld.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster01")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
@@ -59,13 +59,13 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "False")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", "shareus.io")
-SHORT_API = environ.get("SHORT_API", "4HOFBjjFxSNag0CoW64QgxwBG4k1")
+SHORT_URL = environ.get("SHORT_URL", "")
+SHORT_API = environ.get("SHORT_API", "")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "180"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'womsupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'royaldwip')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "False")
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
